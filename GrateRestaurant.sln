@@ -5,11 +5,11 @@ VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{F017C855-DD64-464C-9C79-1DDD0148F7E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grate.web", "Grate.web\Grate.web.csproj", "{12F00393-F6A7-4B06-A41E-E60384826230}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grate.web", "Grate.web\Grate.web.csproj", "{12F00393-F6A7-4B06-A41E-E60384826230}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{6FA98E51-DF86-448B-AB89-66050609813E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greate.Services.ProdustAPI", "Greate.Services.ProdustAPI\Greate.Services.ProdustAPI.csproj", "{CE0AEDE1-F65D-4866-A67A-C569F38922F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Greate.Services.ProdustAPI", "Greate.Services.ProdustAPI\Greate.Services.ProdustAPI.csproj", "{CE0AEDE1-F65D-4866-A67A-C569F38922F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
