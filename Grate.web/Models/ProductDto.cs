@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Greate.web.Models
+namespace Grate.web.Models
 {
     public class ProductDto
     {

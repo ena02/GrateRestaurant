@@ -1,4 +1,4 @@
-﻿namespace Greate.web.Models
+﻿namespace Grate.web.Models
 {
     public class ResponseDto
     {
