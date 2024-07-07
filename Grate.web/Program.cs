@@ -1,7 +1,14 @@
+using Grate.web;
+using Grate.web.Services.IServices;
+
 var builder = WebApplication.CreateBuilder(args);
+var configuration = builder.Configuration;
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddHttpClient<IProductService, IProductService>();
+SD.ProductAPIBase = configuration["ServiceUrls:ProductApi"];
+builder.Services.AddScoped<IProductService, IProductService>();
 
 var app = builder.Build();
 
