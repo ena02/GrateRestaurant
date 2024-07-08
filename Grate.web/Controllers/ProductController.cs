@@ -14,7 +14,7 @@ namespace Grate.web.Controllers
             _productService = productService;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> ProductIndex()
         {
             List<ProductDto> list = new();
             var response = await _productService.GetAllProductsAsync<ResponseDto>();
