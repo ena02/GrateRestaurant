@@ -44,9 +44,16 @@
                         @item.CategoryName
                     </td>
                     <td>
-                        @item.Price
+                        @((item.Price).ToString("C", new System.Globalization.CultureInfo("en-US")))
                     </td>
-                    <td></td>
+                    <td>
+                        <a asp-action="EditProduct" class="btn btn-success" asp-route-productId="@item.ProsuctId">
+                            UPDATE
+                        </a>
+                        <a asp-action="DeleteProduct" class="btn btn-danger" asp-route-productId="@item.ProsuctId">
+                            DELETE
+                        </a>
+                    </td>
                 </tr>
             }
         </tbody>
