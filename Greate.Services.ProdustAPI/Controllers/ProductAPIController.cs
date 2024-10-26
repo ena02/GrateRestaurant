@@ -33,7 +33,7 @@ namespace Greate.Services.ProdustAPI.Controllers
         }
 
         [HttpGet]
-        [Route("id")]
+        [Route("{id}")]
         public async Task<object> Get(int id)
         {
             try
@@ -82,6 +82,7 @@ namespace Greate.Services.ProdustAPI.Controllers
         }
 
         [HttpDelete]
+        [Route("{id}")]
         public async Task<object> Delete(int id)
         {
             try

@@ -20,7 +20,7 @@ namespace Grate.web.Services
         {
             try
             {
-                var client = httpClient.CreateClient("GreateAPI");
+                var client = httpClient.CreateClient("GrateAPI");
                 HttpRequestMessage message = new HttpRequestMessage();
                 message.Headers.Add("Accept", "application/json");
                 message.RequestUri = new Uri(apiRequest.ApiUrl);
